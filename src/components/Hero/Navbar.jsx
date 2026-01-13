@@ -1,0 +1,18 @@
+import { useState } from "react"
+import Bar from "./Bar"
+
+export const Navbar = () => {
+
+  return (
+    <div className="flex justify-between items-center h-12 px-10 sm:px-10 md:px-10 lg:px-10"> 
+      <h1 className="text-center flex text-2xl">Polymer</h1>
+      <Bar />
+    </div>
+  )
+}
+
+
+/* 
+Ubah ke dropdown saat breakpoint md ke bawah
+
+*/
