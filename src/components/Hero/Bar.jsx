@@ -22,7 +22,7 @@ const Bar = () => {
       </div>
 
       {open && (
-        <div className="lg:hidden flex-row absolute top-20 left-17 right-17">
+        <div className="lg:hidden bg-white shadow-md flex-row absolute top-20 left-2 right-2 mt-3">
           <h1 className=" hover:bg-pink-50 rounded-sm cursor-pointer py-2  pl-2">Features</h1>
           <h1 className=" hover:bg-pink-50 rounded-sm cursor-pointer py-2 pl-2">Pricing</h1>
           <h1 className=" hover:bg-pink-50 mr-2 rounded-sm cursor-pointer py-2 pl-2">Blog</h1>
