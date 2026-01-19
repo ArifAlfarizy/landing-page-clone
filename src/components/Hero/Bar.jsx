@@ -18,11 +18,11 @@ const Bar = () => {
         <h1 className="h-7.5 px-4 hover:bg-pink-50 rounded-sm cursor-pointer">Pricing</h1>
         <h1 className="h-7.5 px-4 hover:bg-pink-50 mr-2 rounded-sm cursor-pointer">Blog</h1>
         <h1 className="text-white bg-black rounded-sm h-7.5 w-20 text-center px-4 cursor-pointer">Log in</h1>
-        <h1 className="text-black bg-pink-100 rounded-sm h-7.5 w-24 text-center px-4 ml-2 mr-1 cursor-pointer">Sign Up</h1>
+        <h1 className="text-black bg-linear-to-r from-pink-200 to-orange-100 rounded-sm h-7.5 w-24 text-center px-4 ml-2 mr-1 cursor-pointer">Sign Up</h1>
       </div>
 
       {open && (
-        <div className="lg:hidden bg-white rounded-sm shadow-md flex-row absolute top-20 left-2 right-2 mt-3">
+        <div className="lg:hidden bg-white rounded-sm shadow-md flex-row absolute top-20 left-2 right-2 mt-3 p-2">
           <h1 className=" hover:bg-pink-50 rounded-sm cursor-pointer py-2  pl-2">Features</h1>
           <h1 className=" hover:bg-pink-50 rounded-sm cursor-pointer py-2 pl-2">Pricing</h1>
           <h1 className=" hover:bg-pink-50 mr-2 rounded-sm cursor-pointer py-2 pl-2">Blog</h1>
@@ -32,7 +32,7 @@ const Bar = () => {
         </div>
         </h1>
         <h1 className="cursor-pointer hover:bg-pink-50 py-2 text-center pl-2">
-          <div className="text-black bg-pink-100 rounded-sm w-20 py-1">Sign Up</div>  
+          <div className="text-black bg-linear-to-r from-pink-200 to-orange-100 rounded-sm w-20 py-1">Sign Up</div>  
         </h1>        
       </div>
       )}
