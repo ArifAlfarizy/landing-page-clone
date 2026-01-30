@@ -28,13 +28,13 @@ const Footer = () => {
       id: 4,
       title: "Industries",
       others: [
-        "Crypto % web3",
+        "Crypto & web3",
         "Startups",
         "Fintech",
         "Greentech",
         "Legal services",
         "Healthcare & medtech",
-        "Real estate $ proptech",
+        "Real estate & proptech",
       ],
     },
   ];
