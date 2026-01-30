@@ -7,7 +7,7 @@ const Billboard = () => {
       <h1 className='text-transparent bg-linear-to-r from-pink-200 to-orange-100 bg-clip-text text-3xl sm:text-4xl md:text-4.5xl lg:text-5xl font-semibold mb-5'>Tailor your experience</h1>
       <p className='text-white opacity-70 px-2 sm:px-2 md:px-20 lg:px-80 xl:px-120 mb-15'>Our customizations go deep. Polymer is applicant tracking software that can flex to fit your needs perfectly.</p>
       <img className='w-300' src='billboard-dark.webp'></img>
-      <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-between gap-10 px-0 md:px-0 xl:px-36 lg:px-0 mt-15'>
+      <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-between gap-10 px-0 md:px-0 lg:px-0 xl:px-36 2xl:px-85 mt-15 '>
         <BillFeature 
         url="moon-icon.svg"
         title="Dark mode enabled"
